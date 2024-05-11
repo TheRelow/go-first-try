@@ -3,6 +3,7 @@ package greetings
 import (
 	"errors"
 	"fmt"
+	"math/rand"
 )
 
 // Hello returns a greeting for the named person
@@ -13,6 +14,15 @@ func Hello(name string) (string, error) {
 	}
 
 	// Return a greeting that embeds the name in a message
-	var message string = fmt.Sprintf("hi, %v. Welcome!", name)
+	var message string = fmt.Sprintf(randomFormat(), name)
 	return message, nil
+}
+
+func randomFormat() string {
+	formats := []string{
+		"Hi, %v. Welcome!",
+		"Great to see you, %v!",
+		"Hail, %v! Well met!",
+	}
+	return formats[rand.Intn(len(formats))]
 }
