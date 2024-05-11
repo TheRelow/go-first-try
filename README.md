@@ -7,6 +7,7 @@
 - [x] Error handling[^5]
 - [x] Randomize[^6]
 - [x] for cycle, array, map[^7]
+- [x] testing + pointers[^8]
 
 ## TODO:
 - [ ] Syntax
@@ -19,3 +20,4 @@
 [^5]: https://go.dev/doc/tutorial/handle-errors
 [^6]: https://go.dev/doc/tutorial/random-greeting
 [^7]: https://go.dev/doc/tutorial/greetings-multiple-people
+[^8]: https://go.dev/doc/tutorial/add-a-test
