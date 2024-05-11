@@ -11,11 +11,12 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
+	names := []string{"Eblanchik", "Relow", "Egor"}
 	// get a greeting message and print it
-	message, err := greetings.Hello("Eblanchik")
+	messages, err := greetings.Hellos(names)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Println(message)
+	fmt.Println(messages)
 }
