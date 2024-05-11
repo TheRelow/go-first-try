@@ -4,6 +4,7 @@
 - [x] Hello, World! [^1]
 - [x] Hello, World! 2.0[^3]
 - [x] Hello, World! 3.0[^4]
+- [x] Error handling[^5]
 
 ## TODO:
 - [ ] Syntax
@@ -13,3 +14,4 @@
 [^2]: https://www.google.com/search?q=go+frameworks
 [^3]: https://go.dev/doc/tutorial/getting-started
 [^4]: https://go.dev/doc/tutorial/call-module-code
+[^5]: https://go.dev/doc/tutorial/handle-errors
